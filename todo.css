@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background:url(o.jpg);
+    background-size: cover;
+}
+.form{
+position:absolute;
+top:30%;
+box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+width:400px;
+background-color: transparent;
+border-radius:10px 10px 0 0 ;
+
+}
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius:10px 10px 0 0;
+    border: none; 
+    outline: none;
+    font-size: 22px;
+    font-family: cursive;
+    background: url(t.jpg);
+    color: rgb(54, 49, 42);
+    background-size: cover;
+    text-align: center;
+    /* margin: 0 ; */
+
+}
+
+.input::placeholder{
+    color:rgb(70, 62, 56);
+    text-align: center;
+}
+.list{
+    padding:0;
+    margin:0;
+}
+.list li{
+    list-style-type:none;
+    padding:18px;
+    font-family:cursive;
+    /* border-top:dotted; */
+    /* border-color:rgb(23, 17, 17); */
+    background:url(s.jpg);
+    border-radius: 1rem;
+    margin: 2rem;
+    position: relative;
+    color:rgb(244, 209, 144);
+    /* text-align: center; */
+    /* margin: 2rem 0; */
+
+}
+
+.list li .fa-trash{
+color:rgb(220, 38, 2);
+position:absolute;
+right:10px;
+top:50%;
+transform:translateY(-50%);
+cursor:pointer;
+}
+
+.list li .fa-regular {
+    color:rgb(99, 246, 99);
+    position:absolute;
+    right:40px;
+top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+    }
+    
+.list li.checked {
+    color:darkgray;
+    text-decoration: line-through;
+}
+.list li.checked .fa-square-check{
+    color:darkgray;
+
+    
+} 
+
+@media (width < 900px) {
+  body{
+    background-size:cover;
+    background-repeat:round;
+    /* background: fixed; */
+  }  
+    }
+@media (width < 600px) {
+    body{
+        background-size:cover;
+        background-repeat:round;
+      }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
